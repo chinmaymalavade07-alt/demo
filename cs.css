@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(108, 113, 110),rgb(218, 218, 218));
+}
+
+form {
+    background-color: white;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input ,textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#0073e6;
+    color: rgb(255, 244, 244);
+    border: none;
+    cursor: pointer;
+}
+ 
+
+a
+{
+    text-decoration: none;
+}

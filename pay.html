@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Payment Page</title>
+    <link rel="stylesheet" href="pay.css">
+    <script>
+        function showPaymentAlert(event) {
+            event.preventDefault();  
+            alert("Payment Done!");
+           
+            event.target.submit();
+        }
+    </script>
+</head>
+<body>
+
+    <form action="payment-success.html" method="POST" onsubmit="showPaymentAlert(event)">
+        
+        <h2>Car Payment</h2>
+        <button><a href="index.html">back</a></button>
+        <hr>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name" placeholder="Enter Name" required><br><br>
+ 
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="example@email.com" required><br><br>
+
+       
+ 
+        <label>Payment Method:</label><br>
+        <input type="radio" name="payment" value="card" checked> Card<br>
+        <input type="radio" name="payment" value="bank"> Bank<br>
+        <input type="radio" name="payment" value="upi"> UPI<br><br>
+        <button> <a href="ps.html"> sumbit</a> </button>
+        
+        
+    </form>
+
+</body>
+</html>

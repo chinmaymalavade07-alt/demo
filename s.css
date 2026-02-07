@@ -1,0 +1,41 @@
+ 
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    background: linear-gradient(to right, #65658a,rgb(70, 165, 202),rgb(109, 40, 40));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #00ff3c;  
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    text-align: center;
+}
+button
+{
+    background-color: black;
+    color: #f0f4f8;
+    text-align: center;
+    margin: 2000px 100px;
+}
+a{
+    color: #f9fcff;
+    text-decoration:none;
+}
+
+button
+{
+    background-color: rgb(1, 9, 21);
+    
+}

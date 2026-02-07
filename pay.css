@@ -1,0 +1,96 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+     background: linear-gradient(to right, rgb(108, 113, 110),rgb(218, 218, 218));
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+ .home-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-button:hover {
+    background-color: #005bb5;
+}
+
+ 
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+ 
+h2 {
+    text-align: center;
+    color: #333;
+}
+ 
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+ 
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+ 
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+ 
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ 
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+button
+{
+    background-color: black;
+    color: #fffbfb;
+}
+a{
+    color: #ccc;
+    text-decoration: none;
+    
+}
+
+button
+{
+    background-color: #000000;
+    
+}
