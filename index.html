@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Super Cars Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        
+
+    <h1>Super Cars</h1>
+    <hr>
+    <p>Check out these amazing cars!</p>
+
+     
+    <button><a href="login.html">Login</a></button>
+    
+  
+
+    <section class="bit">
+    <h2>Cars List</h2>
+ 
+    <div>
+        <u><h3>TESLA</h3></u>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuuzuaoAoEz5TcIlDWYwmgKGDrE_BiWDJJg&s">
+        <u><b><p>Fast electric supercar.</p></b></u>
+        <button onclick="toggleDetails('teslaDetails')">Show Details</button>
+
+        <div id="teslaDetails" style="display:none;">
+            <ul>
+                <u> <li>Top Speed: 250 km/h</li>
+                <li>0–100 km/h: 3.1 seconds</li>
+                <li>Range: 500 km</li>
+                <li>Fuel Type: Electric</li>
+                <li>Price: $80,000</li>
+            
+            </ul>
+        </div>
+        <select>
+            <option value="">--Models Info--</option>
+            <option>Model Y</option>
+            <option>Model 3</option>
+            <option>Model S</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('TESLA')">Buy Now</button>
+    </div>
+ 
+    <div>
+        <h3>BMW</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVObt7a9-tHzI5Y6nGpbfg5e4Re0BVfRWctg&s">
+        <b><p>Powerful sports car.</p></b>
+        <button onclick="toggleDetails('bmwDetails')">Show Details</button>
+<div id="bmwDetails" style="display:none;">
+    <ul>
+        <u><li>Top Speed: 290 km/h</li>
+        <li>0–100 km/h: 3.9 seconds</li>
+        <li>Engine: Twin-Turbo V6/V8</li>
+        <li>Fuel Type: Petrol</li>
+        <li>Price: $75,000</li></u>
+    </ul>
+</div>
+
+        <select>
+            <option value="">--Models Info--</option>
+            <option>M1</option>
+            <option>M2</option>
+            <option>M3</option>
+            <option>M4</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('BMW')">Buy Now</button>
+    </div>
+ 
+    <div>
+        <h3>AUDI</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvzs7NWmFsp9qH5CEnC5LdrfqFNU6Kotj4Kg&s">
+        <b><p>Luxury car with style.</p></b>
+        <button onclick="toggleDetails('audiDetails')">Show Details</button>
+<div id="audiDetails" style="display:none;">
+    <ul>
+        <u><li>Top Speed: 250 km/h</li>
+        <li>0–100 km/h: 4.5 seconds</li>
+        <li>Engine: Turbocharged V6</li>
+        <li>Fuel Type: Petrol / Hybrid</li>
+        <li>Price: $70,000</li></u>
+    </ul>
+</div>
+
+        <select>
+            <option value="">--Models Info--</option>
+            <option>Q3</option>
+            <option>Q5</option>
+            <option>Q7</option>
+            <option>Q8</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('AUDI')">Buy Now</button>
+    </div>
+
+    
+    <div>
+        <h3>MERCEDES</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhCQaczzINYzOa5QKET7jm-P74s93NuWmt3g&s">
+        <b><p>Luxury performance machine.</p></b>
+        <button onclick="toggleDetails('mercedesDetails')">Show Details</button>
+<div id="mercedesDetails" style="display:none;">
+    <ul>
+        <u><li>Top Speed: 260 km/h</li>
+        <li>0–100 km/h: 4.0 seconds</li>
+        <li>Engine: V6 / V8 AMG</li>
+        <li>Fuel Type: Petrol</li>
+        <li>Price: $85,000</li></u>
+    </ul>
+</div>
+
+        <select>
+            <option value="">--Models Info--</option>
+            <option>A-Class</option>
+            <option>C-Class</option>
+            <option>E-Class</option>
+            <option>S-Class</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('MERCEDES')">Buy Now</button>
+    </div>
+ 
+    <div>
+        <h3>LAMBORGHINI</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKKrVAZZ3Ku-IyzGEypc06KAyTE-ZOX13kUA&s">
+        <b><p>Extreme speed and design.</p></b>
+        <button onclick="toggleDetails('lamboDetails')">Show Details</button>
+<div id="lamboDetails" style="display:none;">
+    <ul>
+        <u><li>Top Speed: 350 km/h</li>
+        <li>0–100 km/h: 2.9 seconds</li>
+        <li>Engine: V10 / V12</li>
+        <li>Fuel Type: Petrol</li>
+        <li>Price: $300,000</li></u>
+    </ul>
+</div>
+
+        <select>
+            <option value="">--Models Info--</option>
+            <option>Aventador</option>
+            <option>Huracán</option>
+            <option>Urus</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('LAMBORGHINI')">Buy Now</button>
+    </div>
+ 
+    <div class="car">
+        <h3>FERRARI</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RXdoer3pNUWbDfWg-pv0e-VLl3OzGZLALw&s">
+        <b><p>Italian speed legend.</p></b>
+        <button onclick="toggleDetails('ferrariDetails')">Show Details</button>
+<div id="ferrariDetails" style="display:none;">
+    <ul>
+        <u><li>Top Speed: 340 km/h</li>
+        <li>0–100 km/h: 2.8 seconds</li>
+        <li>Engine: Twin-Turbo V8</li>
+        <li>Fuel Type: Petrol</li>
+        <li>Price: $280,000</li></u>
+    </ul>
+</div>
+
+        <select>
+            <option value="">--Models Info--</option>
+            <option>488 GTB</option>
+            <option>F8 Tributo</option>
+            <option>Roma</option>
+            <option>Portofino</option>
+            <option>SF90</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('FERRARI')">Buy Now</button>
+    </div>
+ 
+     
+ 
+    <div>
+        <h3>BUGATTI</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPFAtDB--cCO7YRFlKra8FX2WfXLgMTY07ng&s">
+        <b><p>Ultimate hypercar.</p></b>
+        <button onclick="toggleDetails('bugattiDetails')">Show Details</button>
+<div id="bugattiDetails" style="display:none;">
+    <ul>
+        <u><li>Top Speed: 420 km/h</li>
+        <li>0–100 km/h: 2.4 seconds</li>
+        <li>Engine: W16 Quad-Turbo</li>
+        <li>Fuel Type: Petrol</li>
+        <li>Price: $3,000,000</li></u>
+    </ul>
+</div>
+
+        <select>
+            <option value="">--Models Info--</option>
+            <option>Veyron</option>
+            <option>Chiron</option>
+            <option>Divo</option>
+            <option>Mistral</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('BUGATTI')">Buy Now</button>
+    </div>
+
+ 
+    <div>
+        <h3>McLAREN</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnY2kzlNxc30mJfwAgEynAcMBdUAhuwsaPVw&s">
+        <b><p>Track-focused supercars.</p></b>
+        <button onclick="toggleDetails('mclarenDetails')">Show Details</button>
+<div id="mclarenDetails" style="display:none;">
+    <ul>
+       <u><li>Top Speed: 341 km/h</li>
+        <li>0–100 km/h: 2.9 seconds</li>
+        <li>Engine: Twin-Turbo V8</li>
+        <li>Fuel Type: Petrol / Hybrid</li>
+        <li>Price: $210,000</li></u>
+    </ul>
+</div>
+
+        <select>
+            <option value="">--Models Info--</option>
+            <option>720S</option>
+            <option>570S</option>
+            <option>GT</option>
+            <option>Artura</option>
+            <option>P1</option>
+        </select>
+        <button class="buy-button" onclick="buyCar('McLAREN')">Buy Now</button>
+    </div>
+    </section>
+    
+    <script>
+        function buyCar(carName) { 
+            const select = event.target.parentElement.querySelector('select');
+            const selectedModel = select.value;
+        
+            if (!selectedModel) {
+                alert("Please select a model first!");
+                return;
+            }
+            window.location.href = `pay.html?car=${encodeURIComponent(carName)}&model=${encodeURIComponent(selectedModel)}`;
+        }
+
+
+        function toggleDetails(id) {
+    const details = document.getElementById(id);
+
+    if (details.style.display === "none") {
+        details.style.display = "block";
+    } else {
+        details.style.display = "none";
+    }
+}
+        </script>
+        <button> <a href="cs.html"> Contact Us</a> </button>
+        
+       
+        
+</body>
+</html>
